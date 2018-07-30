@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="center" hgap="10" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: midnightblue;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="top_left" hgap="10" prefHeight="475.0" prefWidth="800.0" style="-fx-background-color: white;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
       <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
    </rowConstraints>
    <children>
-      <Pane prefHeight="515.0" prefWidth="800.0" GridPane.rowIndex="2">
-         <opaqueInsets>
-            <Insets bottom="10.0" left="10.0" right="10.0" />
-         </opaqueInsets>
-      </Pane>
-       <Label prefHeight="49.0" prefWidth="800.0" text="Spotify Downloader Music Player" textFill="WHITE" GridPane.rowIndex="1">
-           <font>
-               <Font name="Comic Sans MS" size="24.0" />
-           </font>
-           <opaqueInsets>
-               <Insets left="20.0" />
-           </opaqueInsets>
-       </Label>
-
+      <Label prefHeight="49.0" prefWidth="800.0" text="Spotify Downloader Music Player">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin></Label>
+      <GridPane GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="392.0" minWidth="10.0" prefWidth="253.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="551.0" minWidth="10.0" prefWidth="391.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="551.0" minWidth="10.0" prefWidth="217.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="275.0" text="Home">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="257.0" text="Playlist" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="257.0" text="Settings" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="257.0" text="About" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label prefHeight="33.0" prefWidth="253.0" text="Music name" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField prefHeight="34.0" prefWidth="543.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <Button mnemonicParsing="false" text="Search" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
    </children>
 </GridPane>
