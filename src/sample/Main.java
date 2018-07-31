@@ -13,6 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Spotify Downloader Music Player");
         primaryStage.setScene(new Scene(root, 800, 475));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
