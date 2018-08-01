@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="top_left" hgap="10" prefHeight="475.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane fx:id="rootPane" alignment="top_left" hgap="10" prefHeight="475.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -38,22 +38,22 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="275.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5">
+            <Button mnemonicParsing="false" onAction="#homePressed" prefHeight="30.0" prefWidth="275.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="257.0" style="-fx-background-color: black;" text="Playlist" textFill="WHITE" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" onAction="#playlistPressed" prefHeight="45.0" prefWidth="257.0" style="-fx-background-color: black;" text="Playlist" textFill="WHITE" GridPane.rowIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="257.0" style="-fx-background-color: black;" text="Settings" textFill="WHITE" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" onAction="#settingsPressed" prefHeight="47.0" prefWidth="257.0" style="-fx-background-color: black;" text="Settings" textFill="WHITE" GridPane.rowIndex="2">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="257.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" onAction="#aboutPressed" prefHeight="51.0" prefWidth="257.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="3">
                <font>
                   <Font size="14.0" />
                </font>
