@@ -6,6 +6,9 @@
 
 ## Sample Design
   <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/design.jpg">
+  
+## Main Window Look
+  <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/sampleLook.png">
 
 ## License 
   MIT License
