@@ -74,10 +74,13 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </TextField>
-            <Button mnemonicParsing="false" text="Search" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" style="-fx-background-color: GREEN;" text="Download" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
             </Button>
          </children>
       </GridPane>
