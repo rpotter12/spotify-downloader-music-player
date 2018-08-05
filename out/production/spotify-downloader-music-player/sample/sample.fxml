@@ -74,7 +74,7 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </TextField>
-            <Button blendMode="LIGHTEN" mnemonicParsing="false" style="-fx-background-color: GREEN;" text="Download" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" style="-fx-background-color: GREEN;" text="Download" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
