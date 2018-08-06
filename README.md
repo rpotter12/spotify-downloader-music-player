@@ -1,9 +1,11 @@
 # spotify-downloader-music-player
 
 - A GUI version of [spotify-downloder](https://github.com/ritiek/spotify-downloader) of [Ritiek Malhotra](https://github.com/ritiek).
+- It is one kind of mp3 music player which can download musics.
 - It will download music from YouTube in MP3 format and can play them.
-- It can download image directly by typing name or typing the link.
-- Playlist button shows the downloaded songs.
+- It can download songs directly by typing name or typing the link.
+- It can download the whole album by the link.
+- Downloaded songs are shown playlist option.
 
 ## Things to do 
 - have to create a music player at the bottom of the main window.
