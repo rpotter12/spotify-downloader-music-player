@@ -4,32 +4,38 @@ about: Create a report to help us improve
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**I'm submitting a ...**  (check one with "x")
+- [ ] bug report
+- [ ] support request => Please do not submit support requests here, instead ask your query in out Gitter channel at https://gitter.im/fossasia/meilix
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Actual Behaviour**
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+<!-- Describe how the bug manifests. -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Expected Behaviour**
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+<!-- State here what the feature should enable the user to do. -->
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Steps to reproduce it**
 
-**Additional context**
-Add any other context about the problem here.
+<!-- Add steps to reproduce bugs or add information on the place where the feature should be implemented. Add links to a sample deployment or code. -->
+
+**Related code:**
+
+```
+insert any relevant code here else remove this section
+```
+
+**Other information:**
+<!-- List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to fix, Stack Overflow links, forum links, etc. -->
+
+**System information:**
+
+<!-- Add information about the system your facing this bug on. If you think this is irrelevant or if it's a UI bug or a feature request, please remove this section -->
+```
+Your operating system
+```
+
+**Would you like to work on the issue?**
+
+<!-- Let us know if this issue should be assigned to you or tell us who you think could help to solve this issue. -->
