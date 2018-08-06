@@ -4,14 +4,37 @@ about: Suggest an idea for this project
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**I'm submitting a ...**  (check one with "x")
+- [x] feature request
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Actual Behaviour**
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+<!-- Describe how the bug manifests. -->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Expected Behaviour**
+
+<!-- State here what the feature should enable the user to do. -->
+
+**Steps to reproduce it**
+
+<!-- Add steps to reproduce bugs or add information on the place where the feature should be implemented. Add links to a sample deployment or code. -->
+
+**Related code:**
+
+```
+insert any relevant code here else remove this section
+```
+
+**Other information:**
+<!-- List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to fix, Stack Overflow links, forum links, etc. -->
+
+**System information:**
+
+<!-- Add information about the system your facing this bug on. If you think this is irrelevant or if it's a UI bug or a feature request, please remove this section -->
+```
+Your operating system
+```
+
+**Would you like to work on the issue?**
+
+<!-- Let us know if this issue should be assigned to you or tell us who you think could help to solve this issue. -->

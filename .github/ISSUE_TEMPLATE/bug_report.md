@@ -6,7 +6,7 @@ about: Create a report to help us improve
 
 **I'm submitting a ...**  (check one with "x")
 - [ ] bug report
-- [ ] support request => Please do not submit support requests here, instead ask your query in out Gitter channel at https://gitter.im/fossasia/meilix
+- [ ] feature request
 
 **Actual Behaviour**
 
