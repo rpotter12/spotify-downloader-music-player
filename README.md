@@ -16,6 +16,8 @@
 
 ## How to run these codes
 - install [intellij idea](https://www.jetbrains.com/idea/).
+- install jdk10.
+- link jdk with intellij idea.
 - open the project in that.
 - start coding ;)
 
