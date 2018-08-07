@@ -14,6 +14,11 @@
 - To set the GUI for playlist and settings section.
 - To improve the GUI(if not looking good).
 
+## How to run these codes
+- install [intellij idea](https://www.jetbrains.com/idea/).
+- open the project in that.
+- start coding ;)
+
 ## Sample Design
   <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/design.jpg">
   
