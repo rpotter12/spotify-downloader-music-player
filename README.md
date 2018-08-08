@@ -18,10 +18,10 @@
 - install [intellij idea](https://www.jetbrains.com/idea/).
 - install jdk10.
 - link jdk with intellij idea
-  -- go to project structure
-  -- select jdk in Project SDK section
-  -- set project language level: 10-Local variable type inference
-  -- click ok
+  - go to project structure
+  - select jdk in Project SDK section
+  - set project language level: 10-Local variable type inference
+  - click ok
 - open the project in intellij idea.
 - start coding ;)
 
