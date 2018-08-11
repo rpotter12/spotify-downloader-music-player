@@ -1,4 +1,4 @@
-package sample;
+package com.rohit.sdmp;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class settingsController {
     private GridPane settingsrootPane;
     //Stage stage;
     public void homePressed() throws IOException {
-        GridPane homepane = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        GridPane homepane = FXMLLoader.load(getClass().getResource("home.fxml"));
         settingsrootPane.getChildren().setAll(homepane);
     }
 
