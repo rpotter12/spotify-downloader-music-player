@@ -38,7 +38,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#homePressed" prefHeight="30.0" prefWidth="275.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5">
+            <Button mnemonicParsing="false" onAction="#homePressed" prefHeight="30.0" prefWidth="257.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5">
                <font>
                   <Font size="14.0" />
                </font>
