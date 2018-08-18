@@ -35,4 +35,4 @@
   Check out [CONTRIBUTING.md](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/CONTRIBUTING.md) for more info.
 
 ## License 
-  MIT License
+  [![MIT License](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/LICENSE)]
