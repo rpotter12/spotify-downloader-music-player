@@ -7,13 +7,6 @@
 - It can download the whole album by the link.
 - Downloaded songs are shown playlist option.
 
-## Things to do 
-- have to create a music player at the bottom of the main window.
-- To set the controller for music player.
-- To write the downloading script for the project and set in the controller.
-- To set the GUI for playlist and settings section.
-- To improve the GUI(if not looking good).
-
 ## How to run these codes
 - install [intellij idea](https://www.jetbrains.com/idea/).
 - install jdk10.
