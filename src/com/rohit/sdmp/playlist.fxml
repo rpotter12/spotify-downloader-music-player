@@ -64,7 +64,7 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-            <Label prefHeight="42.0" prefWidth="277.0" text="Choose music from system to play: " textFill="WHITE" GridPane.columnIndex="1">
+            <Label prefHeight="42.0" prefWidth="277.0" text="Choose music : " textFill="WHITE" GridPane.columnIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
