@@ -1,9 +1,14 @@
 package com.rohit.sdmp;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.GridPane;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+import javafx.stage.Window;
 
+import java.io.File;
 import java.io.IOException;
 
 public class playlistController {
@@ -11,6 +16,8 @@ public class playlistController {
 
     @FXML
     private GridPane playlistrootPane;
+    final FileChooser fileChooser = new FileChooser();
+    Stage primaryStage;
     //Stage stage;
     public void homePressed() throws IOException {
         GridPane homepane = FXMLLoader.load(getClass().getResource("home.fxml"));
@@ -33,5 +40,8 @@ public class playlistController {
     }
 
 
-
+    public void choosePressed(ActionEvent actionEvent) {
+        fileChooser.setTitle("select song");
+        final File file = fileChooser.showOpenDialog(primaryStage);
+    }
 }

@@ -64,7 +64,7 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-            <Label prefHeight="42.0" prefWidth="277.0" text="Choose music from system to play: " textFill="WHITE" GridPane.columnIndex="1">
+            <Label prefHeight="42.0" prefWidth="277.0" text="Choose music : " textFill="WHITE" GridPane.columnIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
@@ -75,7 +75,7 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </Label>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: GREEN;" text="Choose" GridPane.columnIndex="2">
+            <Button onAction="#choosePressed" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: GREEN;" text="Choose" GridPane.columnIndex="2">
                <font>
                   <Font size="14.0" />
                </font>
