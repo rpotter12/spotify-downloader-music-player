@@ -14,7 +14,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spotify-downloader-music-player" options="--add-modules=javafx.fxml,javafx.graphics,javafx.base" />
+      <module name="spotify-downloader-music-player" options="--add-modules=javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.controls" />
     </option>
   </component>
 </project>
