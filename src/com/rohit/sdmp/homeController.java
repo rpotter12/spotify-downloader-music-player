@@ -1,12 +1,16 @@
 package com.rohit.sdmp;
 
+import javafx.concurrent.Task;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class homeController {
 
@@ -16,6 +20,7 @@ public class homeController {
     private Button download;
     @FXML
     private TextField musiclink;
+
     @FXML
     public void initialize()
     {
@@ -49,5 +54,37 @@ public class homeController {
         download.setDisable(disableButtons);
     }
 
+
+    public void downloadSong() throws IOException{
+        //downloadSong();
+    
+    public void downloadSong(ActionEvent actionEvent) {
+        String command = "python3 spotdl.py --song " + musiclink;
+        Task<String> commandTask = new Task<String>() {
+            @Override
+            protected String call() {
+                return executecmd(command);
+            }
+    };
+    }}
+
+    private String executecmd(String command) {
+        StringBuffer output = new StringBuffer();
+        Process p;
+        try {
+            System.out.println(command);
+            p = Runtime.getRuntime().exec(command);
+            p.waitFor();
+            BufferedReader reader =
+                    new BufferedReader(new InputStreamReader(p.getInputStream()));
+            String line = "";
+            while ((line = reader.readLine())!= null) {
+                output.append(line + "\n");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return output.toString();
+    }
 }
 
