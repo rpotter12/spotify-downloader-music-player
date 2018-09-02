@@ -56,8 +56,9 @@ public class homeController {
 
 
     public void downloadSong() throws IOException{
-        //downloadSong();
+        downloadSong();
     
+    }
     public void downloadSong(ActionEvent actionEvent) {
         String command = "python3 spotdl.py --song " + musiclink;
         Task<String> commandTask = new Task<String>() {
@@ -65,8 +66,8 @@ public class homeController {
             protected String call() {
                 return executecmd(command);
             }
-    };
-    }}
+        };
+    }
 
     private String executecmd(String command) {
         StringBuffer output = new StringBuffer();
