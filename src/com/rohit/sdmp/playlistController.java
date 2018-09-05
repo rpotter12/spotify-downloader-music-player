@@ -1,24 +1,17 @@
 package com.rohit.sdmp;
 
-import javafx.application.HostServices;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import javafx.scene.media.*;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.scene.media.MediaView;
-import javafx.stage.Window;
-
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -66,15 +59,15 @@ public class playlistController {
         String files= "%file";
         if(file !=null)
         {
-            //openFile(file.toURI().toString());
-            file;
+            openFile(file.toURI().toString());
+
             InputStream inputStream = p.getInputStream();
         }
     }
 
 
     // media player
-    /*private void openFile(String file) {
+    private void openFile(String file) {
 
             primaryStage.setTitle("Media Player");
             Group root = new Group();
@@ -93,7 +86,7 @@ public class playlistController {
             primaryStage.show();
 
 
-    }*/
+    }
 }
 
 
