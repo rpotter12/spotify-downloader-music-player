@@ -21,6 +21,7 @@ import javafx.stage.Window;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 
 import static javafx.application.Application.launch;
 
@@ -32,6 +33,10 @@ public class playlistController {
     final FileChooser fileChooser = new FileChooser();
     Stage primaryStage;
     private String resource;
+    Process p=Runtime.getRuntime().exec("/usr/share/applications/Rhythmbox");
+
+    public playlistController() throws IOException {
+    }
 
     //Stage stage;
     public void homePressed() throws IOException {
@@ -61,13 +66,15 @@ public class playlistController {
         String files= "%file";
         if(file !=null)
         {
-            openFile(file.toURI().toString());
+            //openFile(file.toURI().toString());
+            file;
+            InputStream inputStream = p.getInputStream();
         }
     }
 
 
     // media player
-    private void openFile(String file) {
+    /*private void openFile(String file) {
 
             primaryStage.setTitle("Media Player");
             Group root = new Group();
@@ -86,7 +93,7 @@ public class playlistController {
             primaryStage.show();
 
 
-    }
+    }*/
 }
 
 
