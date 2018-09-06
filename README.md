@@ -16,10 +16,7 @@
   - set project language level: 10-Local variable type inference
   - click ok
 - open the project in intellij idea.
-- start coding ;)
-
-## Sample Design
-  <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/design.jpg">
+- start coding :)
   
 ## Main Window Look
   <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/sampleLook1.png">
