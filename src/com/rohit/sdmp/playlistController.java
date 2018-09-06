@@ -16,8 +16,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static javafx.application.Application.launch;
-
 public class playlistController {
 
 
@@ -26,7 +24,7 @@ public class playlistController {
     final FileChooser fileChooser = new FileChooser();
     Stage primaryStage;
     private String resource;
-    Process p=Runtime.getRuntime().exec("/usr/share/applications/Rhythmbox");
+    //Process p=Runtime.getRuntime().exec("/usr/share/applications/Rhythmbox");
 
     public playlistController() throws IOException {
     }
@@ -61,7 +59,7 @@ public class playlistController {
         {
             openFile(file.toURI().toString());
 
-            InputStream inputStream = p.getInputStream();
+            //InputStream inputStream = p.getInputStream();
         }
     }
 

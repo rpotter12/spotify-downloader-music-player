@@ -73,7 +73,7 @@ public class homeController {
         StringBuffer output = new StringBuffer();
         Process p;
         try {
-            p = Runtime.getRuntime().exec("/usr/share/applications/Terminal"+command);
+            p = Runtime.getRuntime().exec("Computer/usr/share/applications/Terminal"+command);
             p.waitFor();
             BufferedReader reader =
                     new BufferedReader(new InputStreamReader(p.getInputStream()));
