@@ -14,7 +14,7 @@
 <!--prefHeight="400.0" prefWidth="600.0">-->
 <!--</AnchorPane>-->
 
-<GridPane fx:id="playlistrootPane" alignment="top_left" hgap="10" prefHeight="475.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.playlistController">
+<GridPane fx:id="playlistrootPane" alignment="top_left" hgap="10" prefHeight="175.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.playlistController">
     <columnConstraints>
         <ColumnConstraints />
     </columnConstraints>
@@ -31,7 +31,7 @@
             <GridPane.margin>
                 <Insets left="10.0" />
             </GridPane.margin></Label>
-        <GridPane GridPane.rowIndex="1">
+        <GridPane prefHeight="126.0" prefWidth="800.0" GridPane.rowIndex="1">
             <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="232.0" minWidth="10.0" prefWidth="232.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.0" minWidth="10.0" prefWidth="240.0" />
@@ -59,7 +59,7 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" onAction="#aboutPressed" prefHeight="30.0" prefWidth="232.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="3">
+                <Button mnemonicParsing="false" onAction="#aboutPressed" prefHeight="39.0" prefWidth="232.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="3">
                     <font>
                         <Font size="14.0" />
                     </font>
@@ -75,7 +75,7 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </Label>
-            <Button onAction="#choosePressed" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: GREEN;" text="Choose" GridPane.columnIndex="2">
+            <Button mnemonicParsing="false" onAction="#choosePressed" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: GREEN;" text="Choose" GridPane.columnIndex="2">
                <font>
                   <Font size="14.0" />
                </font>
