@@ -14,7 +14,7 @@
 <!--prefHeight="400.0" prefWidth="600.0">-->
 <!--</AnchorPane>-->
 
-<GridPane fx:id="aboutrootPane"  alignment="top_left" hgap="10" prefHeight="475.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.aboutController">
+<GridPane fx:id="aboutrootPane"  alignment="top_left" hgap="10" prefHeight="175.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.aboutController">
     <columnConstraints>
         <ColumnConstraints />
     </columnConstraints>

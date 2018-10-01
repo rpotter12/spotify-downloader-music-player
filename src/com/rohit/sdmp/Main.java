@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("home.fxml"));
         primaryStage.setTitle("Spotify Downloader Music Player");
-        primaryStage.setScene(new Scene(root, 800, 475));
+        primaryStage.setScene(new Scene(root, 800, 175));
         primaryStage.setResizable(false);
         primaryStage.show();
     }
