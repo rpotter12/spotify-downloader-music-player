@@ -9,7 +9,7 @@
 
 ## installation
 - open terminal
-- cd spotify-downloader-music-player/src/com/rohit/sdmp
+- `cd spotify-downloader-music-player/src/com/rohit/sdmp`
 - `pip3 install -r requirements.txt -U`
 
 ## How to run these codes
