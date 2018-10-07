@@ -7,6 +7,11 @@
 - It can download the whole album by the link.
 - Downloaded songs are shown playlist option.
 
+## installation
+- open terminal
+- cd spotify-downloader-music-player/src/com/rohit/sdmp
+- `pip3 install -r requirements.txt -U`
+
 ## How to run these codes
 - install [intellij idea](https://www.jetbrains.com/idea/).
 - install jdk10.
