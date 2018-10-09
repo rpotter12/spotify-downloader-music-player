@@ -24,7 +24,7 @@
 - start coding :)
   
 ## Main Window Look
-  <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/sampleLook1.png">
+  <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/download.png">
 
 ## Contributing
   Check out [CONTRIBUTING.md](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/CONTRIBUTING.md) for more info.
