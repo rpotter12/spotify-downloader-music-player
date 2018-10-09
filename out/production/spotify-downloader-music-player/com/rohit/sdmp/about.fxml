@@ -14,7 +14,7 @@
 <!--prefHeight="400.0" prefWidth="600.0">-->
 <!--</AnchorPane>-->
 
-<GridPane fx:id="aboutrootPane"  alignment="top_left" hgap="10" prefHeight="175.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.aboutController">
+<GridPane fx:id="aboutrootPane" alignment="top_left" hgap="10" prefHeight="175.0" prefWidth="800.0" style="-fx-background-color: #262626;" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rohit.sdmp.aboutController">
     <columnConstraints>
         <ColumnConstraints />
     </columnConstraints>
@@ -32,33 +32,27 @@
             </GridPane.margin></Label>
         <GridPane GridPane.rowIndex="1">
             <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="392.0" minWidth="10.0" prefWidth="234.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="558.0" minWidth="10.0" prefWidth="558.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="551.0" minWidth="9.0" prefWidth="9.0" />
+                <ColumnConstraints hgrow="NEVER" maxWidth="392.0" minWidth="10.0" prefWidth="231.0" />
+                <ColumnConstraints hgrow="NEVER" maxWidth="572.0" minWidth="10.0" prefWidth="569.0" />
             </columnConstraints>
             <rowConstraints>
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
             </rowConstraints>
             <children>
-                <Button mnemonicParsing="false" onAction="#homePressed"  prefHeight="30.0" prefWidth="275.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5">
+                <Button mnemonicParsing="false" onAction="#homePressed" prefHeight="30.0" prefWidth="257.0" style="-fx-background-color: black;" text="Home" textFill="#f5f5f5" GridPane.rowIndex="0">
                     <font>
                         <Font size="14.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" onAction="#playlistPressed"  prefHeight="45.0" prefWidth="257.0" style="-fx-background-color: black;" text="Playlist" textFill="WHITE" GridPane.rowIndex="1">
+                <Button mnemonicParsing="false" onAction="#playlistPressed" prefHeight="30.0" prefWidth="257.0" style="-fx-background-color: black;" text="Playlist" textFill="WHITE" GridPane.rowIndex="1">
                     <font>
                         <Font size="14.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" onAction="#settingsPressed"  prefHeight="47.0" prefWidth="257.0" style="-fx-background-color: black;" text="Settings" textFill="WHITE" GridPane.rowIndex="2">
-                    <font>
-                        <Font size="14.0" />
-                    </font>
-                </Button>
-                <Button mnemonicParsing="false" onAction="#aboutPressed"  prefHeight="51.0" prefWidth="257.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="3">
+                <Button mnemonicParsing="false" onAction="#aboutPressed" prefHeight="30.0" prefWidth="257.0" style="-fx-background-color: black;" text="About" textFill="WHITE" GridPane.rowIndex="2">
                     <font>
                         <Font size="14.0" />
                     </font>
@@ -74,7 +68,7 @@
                   <Insets />
                </opaqueInsets>
                 </Label>
-            <Label prefHeight="38.0" prefWidth="558.0" text="It can download music from YouTube in MP3 format and can play them." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Label prefHeight="30.0" prefWidth="558.0" text="It can download music from YouTube in MP3 format and can play them." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <opaqueInsets>
                   <Insets left="10.0" />
                </opaqueInsets>
@@ -82,12 +76,12 @@
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <Label prefHeight="37.0" prefWidth="553.0" text="It can download image directly by typing name or typing the link." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Label prefHeight="30.0" prefWidth="553.0" text="It can download image directly by typing name or typing the link." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" prefHeight="42.0" prefWidth="549.0" text="© Rohit Potter" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="549.0" text="© Rohit Potter" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             </children>
         </GridPane>
     </children>

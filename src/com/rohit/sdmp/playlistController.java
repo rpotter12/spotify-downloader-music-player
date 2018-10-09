@@ -14,7 +14,6 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 
 public class playlistController {
 
@@ -38,11 +37,6 @@ public class playlistController {
     public void playlistPressed() throws IOException {
         GridPane playpane = FXMLLoader.load(getClass().getResource("playlist.fxml"));
         playlistrootPane.getChildren().setAll(playpane);
-    }
-
-    public void settingsPressed() throws IOException {
-        GridPane settingpane = FXMLLoader.load(getClass().getResource("settings.fxml"));
-        playlistrootPane.getChildren().setAll(settingpane);
     }
 
     public void aboutPressed() throws IOException {

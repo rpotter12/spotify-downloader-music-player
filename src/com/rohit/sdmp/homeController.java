@@ -37,11 +37,6 @@ public class homeController {
         rootPane.getChildren().setAll(playpane);
     }
 
-    public void settingsPressed() throws IOException {
-        GridPane settingpane = FXMLLoader.load(getClass().getResource("settings.fxml"));
-        rootPane.getChildren().setAll(settingpane);
-    }
-
     public void aboutPressed() throws IOException {
         GridPane pane = FXMLLoader.load(getClass().getResource("about.fxml"));
         rootPane.getChildren().setAll(pane);
