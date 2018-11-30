@@ -1,7 +1,5 @@
 package com.rohit.sdmp;
 
-import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.GridPane;
@@ -49,37 +47,27 @@ public class homeController {
         download.setDisable(disableButtons);
     }
 
+    public void downloadSong() throws IOException {
+        Runtime rt = Runtime.getRuntime();
+        String[] commands = {"python3 spotdl.py --song 'one direction kiss you'"};
+        String[] command = {"ls"};
+        Process proc = rt.exec(commands);
 
-    public void downloadSong() throws IOException{
-        downloadSong();
-    
-    }
-    public void downloadSong(ActionEvent actionEvent) {
-        String command = "python3 spotdl.py --song " + musiclink;
-        Task<String> commandTask = new Task<String>() {
-            @Override
-            protected String call() {
-                return executecmd(command);
-            }
-        };
-    }
+        BufferedReader stdInput = new BufferedReader(new
+                InputStreamReader(proc.getInputStream()));
 
-    private String executecmd(String command) {
-        StringBuffer output = new StringBuffer();
-        Process p;
-        try {
-            p = Runtime.getRuntime().exec("Computer/usr/share/applications/Terminal"+command);
-            p.waitFor();
-            BufferedReader reader =
-                    new BufferedReader(new InputStreamReader(p.getInputStream()));
-            String line = "";
-            while ((line = reader.readLine())!= null) {
-                output.append(line + "\n");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
+        BufferedReader stdError = new BufferedReader(new
+                InputStreamReader(proc.getErrorStream()));
+
+        // read the output from the command
+        String s = null;
+        while ((s = stdInput.readLine()) != null) {
+            System.out.println(s);
         }
-        return output.toString();
+
+        while ((s = stdError.readLine()) != null) {
+            System.out.println(s);
+        }
     }
 }
 

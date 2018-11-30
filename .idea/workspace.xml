@@ -3,23 +3,46 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/about.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/about.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/aboutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/aboutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/homeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/homeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/MediaControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/internals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/spotify_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/core/youtube_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/homeController$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/homeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/playlist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/playlist.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/playlistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/playlistController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/settings.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/settingsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotify-downloader-music-player/com/rohit/sdmp/spotdl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/MediaControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/MediaControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/internals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/spotify_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/core/youtube_tools.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/settings.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/settingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rohit/sdmp/spotdl.py" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,120 +94,16 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1661201144">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="4" />
-          <entry key="java" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="4" />
-          <entry key="fxml" value="58" />
-          <entry key="java" value="540" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="540" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="58" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="102009965">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="3" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="fxml" value="289" />
-          <entry key="java" value="1082" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1082" />
-          <entry key="XML" value="289" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="8" />
-          <entry key="java" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="XML" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/Main.java">
+        <entry file="file://$PROJECT_DIR$/spotify-downloader-music-player.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="50" column="192" selection-start-line="50" selection-start-column="192" selection-end-line="50" selection-end-column="192" />
+            <state relative-caret-position="75">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -192,52 +111,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="54" column="196" selection-start-line="54" selection-start-column="196" selection-end-line="54" selection-end-column="196" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="367">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -276,16 +160,23 @@
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/songsPlaylist/songs.java" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/EmbeddedMediaPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/MediaControl.java" />
-        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/settingsController.java" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/playlist1.fxml" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/settings.fxml" />
-        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml" />
-        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java" />
-        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java" />
-        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml" />
         <option value="$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml" />
+        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml" />
+        <option value="$PROJECT_DIR$/homeController.java" />
+        <option value="$PROJECT_DIR$/aboutController.java" />
+        <option value="$PROJECT_DIR$/Main.java" />
+        <option value="$PROJECT_DIR$/MediaControl.java" />
+        <option value="$PROJECT_DIR$/playlistController.java" />
+        <option value="$PROJECT_DIR$/spotify-downloader-music-player.iml" />
+        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java" />
+        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java" />
+        <option value="$PROJECT_DIR$/src/aboutController.java" />
+        <option value="$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java" />
       </list>
     </option>
   </component>
@@ -305,14 +196,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spotify-downloader-music-player" type="b2602c69:ProjectViewProjectNode" />
               <item name="spotify-downloader-music-player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spotify-downloader-music-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify-downloader-music-player" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spotify-downloader-music-player" type="b2602c69:ProjectViewProjectNode" />
@@ -340,22 +236,27 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539057436651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543611058193" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/rohit/sdmp" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/rohit/sdmp" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rohit.sdmp" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/rohit/sdmp" />
       <recent name="$PROJECT_DIR$/src/com/rohit/sdmp/core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/rohit/sdmp" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,7 +284,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -419,7 +320,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -430,11 +331,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -469,7 +370,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17557861" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1819633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +379,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.3213703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.32084692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,10 +388,11 @@
       <window_info anchor="bottom" id="Profiler" order="8" />
       <window_info anchor="bottom" id="Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039905" side_tool="true" weight="0.3213703" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49960095" weight="0.32463294" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49960095" weight="0.32247558" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32789558" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32736155" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -503,9 +405,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
@@ -517,85 +416,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/songsPlaylist/songs.java" />
     <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/EmbeddedMediaPlayer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="259" selection-start-line="16" selection-start-column="259" selection-end-line="16" selection-end-column="259" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/settingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/settings.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="55" column="196" selection-start-line="55" selection-start-column="196" selection-end-line="55" selection-end-column="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/MediaControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2475">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/settingsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/settings.fxml" />
     <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="810">
           <caret line="54" column="196" selection-start-line="54" selection-start-column="196" selection-end-line="54" selection-end-column="196" />
         </state>
       </provider>
@@ -603,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlist.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
+        <state relative-caret-position="505">
           <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
         </state>
       </provider>
@@ -611,8 +437,121 @@
     <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/home.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="50" column="192" selection-start-line="50" selection-start-column="192" selection-end-line="50" selection-end-column="192" />
+        <state relative-caret-position="161">
+          <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/about.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediaControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/playlistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/MediaControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/description.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/spotify-downloader-music-player.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spotify-downloader-music-player.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/aboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rohit/sdmp/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>

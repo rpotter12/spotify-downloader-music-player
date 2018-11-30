@@ -70,8 +70,8 @@ public class playlistController {
             MediaPlayer mediaPlayer = new MediaPlayer(media);
             mediaPlayer.setAutoPlay(true);
 
-            MediaControl mediaControl = new MediaControl(mediaPlayer);
-            scene.setRoot(mediaControl);
+//            MediaControl mediaControl = new MediaControl(mediaPlayer);
+//            scene.setRoot(mediaControl);
 
             primaryStage.setScene(scene);
             primaryStage.sizeToScene();
