@@ -1,5 +1,7 @@
 package com.rohit.sdmp;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.GridPane;
@@ -47,10 +49,10 @@ public class homeController {
         download.setDisable(disableButtons);
     }
 
+    // method for working of spotdl command
     public void downloadSong() throws IOException {
         Runtime rt = Runtime.getRuntime();
-        String[] commands = {"python3 spotdl.py --song 'one direction kiss you'"};
-        String[] command = {"ls"};
+        String commands = "spotdl -s \""+musiclink.getText()+"\"";
         Process proc = rt.exec(commands);
 
         BufferedReader stdInput = new BufferedReader(new
@@ -68,6 +70,9 @@ public class homeController {
         while ((s = stdError.readLine()) != null) {
             System.out.println(s);
         }
+
+        // to check command string
+        //System.out.println(commands);
     }
 }
 
