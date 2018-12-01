@@ -5,12 +5,10 @@
 - It can download music from YouTube in MP3 format and can play them.
 - It can download songs directly by typing name or typing the link.
 - It can download the whole album by the link.
-- Downloaded songs are shown playlist option.
 
 ## installation
 - open terminal
-- `cd spotify-downloader-music-player`
-- `pip3 install -r requirements.txt -U`
+- `pip3 install spotdl`
 
 ## How to run these codes
 - install [intellij idea](https://www.jetbrains.com/idea/).
