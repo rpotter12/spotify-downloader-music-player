@@ -52,8 +52,7 @@ public class homeController {
     // method for working of spotdl command
     public void downloadSong() throws IOException {
         Runtime rt = Runtime.getRuntime();
-        String commands = "spotdl -s \""+musiclink.getText()+"\"";
-        Process proc = rt.exec(commands);
+        Process proc = rt.exec("spotdl -s "+musiclink.getText());
 
         BufferedReader stdInput = new BufferedReader(new
                 InputStreamReader(proc.getInputStream()));
@@ -71,8 +70,8 @@ public class homeController {
             System.out.println(s);
         }
 
-        // to check command string
-        //System.out.println(commands);
+//         to check command string
+//         System.out.println(commands);
     }
 }
 
