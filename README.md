@@ -29,3 +29,5 @@
 
 ## License 
   [MIT License](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/LICENSE)
+
+(If you like the project, support us by staring the project)
