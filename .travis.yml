@@ -1,0 +1,11 @@
+language: java
+
+sudo: required
+
+jdk:
+        - oraceljdk8
+        - oraclejdk11
+        - openjdk10
+        - openjdk11
+
+before_install: pip3 install spotdl
