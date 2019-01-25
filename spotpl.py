@@ -1,16 +1,3 @@
-# from tkinter import *
-# root=Tk()
-# root.title('spotify-downloader-music-player')
-# home=Button(root, text='HOME', width=25)
-# home.pack(side=LEFT)
-# playlist=Button(root, text='PLAYLIST', width=25)
-# playlist.pack(side=LEFT)
-# about=Button(root, text='ABOUT', width=25)
-# about.pack(side=LEFT)
-# home.grid(column=0, row=0, sticky="nsew")  
-# playlist.grid(column=1, row=0, sticky="nsew")  
-# about.grid(column=0, row=1, sticky="nsew")
-# root.mainloop()
 from tkinter import *
  
 root = Tk()
@@ -39,5 +26,8 @@ playlist.pack(fill='x')
 about.pack(fill='x')
 songName.pack()
 download.pack()
+
+def namedownload():
+	
  
 root.mainloop() 
