@@ -6,23 +6,20 @@
 - It can download songs directly by typing name or typing the link.
 - It can download the whole album by the link.
 
+## Technologies
+- python
+- tkinter(GUI library) 
+
+Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. Tkinter is included with standard Linux, Microsoft Windows and Mac OS X installs of Python. The name Tkinter comes from Tk interface.
+
 ## installation
 - open terminal
 - `pip3 install spotdl`
 
 ## How to run these codes
-- install [intellij idea](https://www.jetbrains.com/idea/).
-- install jdk10.
-- link jdk with intellij idea
-  - go to project structure
-  - select jdk in Project SDK section
-  - set project language level: 10-Local variable type inference
-  - click ok
-- open the project in intellij idea.
-- start coding :)
+- `python3 spotpl.py`
   
 ## Main Window Look
-  <img src="https://github.com/rpotter12/spotify-downloader-music-player/blob/master/pictures/download.png">
 
 ## Contributing
   Check out [CONTRIBUTING.md](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/CONTRIBUTING.md) for more info.
