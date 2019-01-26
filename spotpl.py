@@ -1,6 +1,7 @@
 from tkinter import *
-from about import *
+import os
 
+global musiclink
 def homebackground():
 	root = Tk()
 	root.title('spotify-downloader-music-player')
@@ -21,7 +22,8 @@ def homebackground():
 	playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
 	about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
 	songName = Entry(frame4, width=40)
-	download = Button(frame5, text="Download")
+	musiclink="spotdl -s "+songName.get()
+	download = Button(frame5, text="Download", command=downloadsong)
 	 
 	home.pack(fill='x')  
 	playlist.pack(fill='x')  
@@ -89,6 +91,9 @@ def playlistbackground():
 	about.pack(fill='x')
 	 
 	root.mainloop() 
+
+def downloadsong(musiclink):
+	print(os.system(musiclink))
 
 if __name__ == '__main__':
 	homebackground();
