@@ -1,3 +1,4 @@
+from tkinter import filedialog
 from tkinter import *
 import os
 
@@ -78,21 +79,33 @@ def playlistbackground():
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
     frame5.grid(column=1, row=1, sticky="nsew")
-    frame6.grid(column=1, row=2, sticky="nsew")
-     
+    frame6.grid(column=2, row=1, sticky="nsew")
+
+    folder_path = StringVar()
     home = Button(frame1, text="HOME",width=15, command=homebackground)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
+    Label(frame4, text=folder_path).pack()
+    choose = Button(frame5, text="choose", command=browse_button)
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
     about.pack(fill='x')
+    choose.pack()
      
     root.mainloop() 
 
 def downloadsong(songName):
     musiclink="spotdl -s "+songName.get()
     os.system(musiclink)
+
+def browse_button():
+    # Allow user to select a directory and store it in global var
+    # called folder_path
+    global folder_path
+    filename = filedialog.askdirectory()
+    folder_path.set(filename)
+    print(filename)
 
 if __name__ == '__main__':
     homebackground()
