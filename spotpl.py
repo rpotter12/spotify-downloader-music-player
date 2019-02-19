@@ -1,16 +1,25 @@
-from tkinter import filedialog
 from tkinter import *
 import os
 
-def homebackground():
-    root = Tk()
-    root.title('spotify-downloader-music-player')
+root = None
+active_window = None
 
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
+def new_window(root):
+    global active_window
+    if active_window is not None:
+        active_window.destroy()
+    active_window = Tk()
+    return active_window
+
+def homebackground():
+    root2 = new_window(root)
+    root2.title('spotify-downloader-music-player')
+
+    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root2, borderwidth=2, relief='ridge')
+    frame4 = Frame(root2, borderwidth=0, relief='ridge')
+    frame5 = Frame(root2, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -30,18 +39,18 @@ def homebackground():
     songName.pack()
     download.pack()
      
-    root.mainloop() 
+    root2.mainloop() 
 
 def aboutbackground():
-    root = Tk()
-    root.title('spotify-downloader-music-player')
+    root2 = new_window(root)
+    root2.title('spotify-downloader-music-player')
 
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
-    frame6 = Frame(root, borderwidth=0, relief='ridge')
+    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root2, borderwidth=2, relief='ridge')
+    frame4 = Frame(root2, borderwidth=0, relief='ridge')
+    frame5 = Frame(root2, borderwidth=0, relief='ridge')
+    frame6 = Frame(root2, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -61,18 +70,18 @@ def aboutbackground():
     playlist.pack(fill='x')  
     about.pack(fill='x')
      
-    root.mainloop() 
+    root2.mainloop() 
 
 def playlistbackground():
-    root = Tk()
-    root.title('spotify-downloader-music-player')
+    root2 = new_window(root)
+    root2.title('spotify-downloader-music-player')
 
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
-    frame6 = Frame(root, borderwidth=0, relief='ridge')
+    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root2, borderwidth=2, relief='ridge')
+    frame4 = Frame(root2, borderwidth=0, relief='ridge')
+    frame5 = Frame(root2, borderwidth=0, relief='ridge')
+    frame6 = Frame(root2, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -93,7 +102,7 @@ def playlistbackground():
     about.pack(fill='x')
     choose.pack()
      
-    root.mainloop() 
+    root2.mainloop() 
 
 def downloadsong(songName):
     musiclink="spotdl -s "+songName.get()
