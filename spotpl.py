@@ -15,6 +15,9 @@ def homebackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
 
+    # Set the configuration of GUI window  
+    root2.geometry("600x175") 
+
     frame1 = Frame(root, borderwidth=2, relief='ridge')  
     frame2 = Frame(root, borderwidth=2, relief='ridge')  
     frame3 = Frame(root, borderwidth=2, relief='ridge')
@@ -50,6 +53,9 @@ def homebackground():
 def aboutbackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
+
+    # Set the configuration of GUI window  
+    root2.geometry("600x175") 
 
     frame1 = Frame(root, borderwidth=2, relief='ridge')  
     frame2 = Frame(root, borderwidth=2, relief='ridge')  
@@ -88,6 +94,9 @@ def aboutbackground():
 def playlistbackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
+
+    # Set the configuration of GUI window  
+    root2.geometry("600x175") 
 
     frame1 = Frame(root, borderwidth=2, relief='ridge')  
     frame2 = Frame(root, borderwidth=2, relief='ridge')  
