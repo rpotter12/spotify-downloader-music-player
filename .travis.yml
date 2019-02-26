@@ -6,6 +6,5 @@ python:
   - '3.6'
   - '3.5'
   - '3.4'
-  - '2.7'
 before_install: pip3 install spotdl
 script: python3 test.py
