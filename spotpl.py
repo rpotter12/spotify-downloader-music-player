@@ -4,6 +4,7 @@ import os
 root = None
 active_window = None
 
+# Function to close previous window
 def new_window(root):
     global active_window
     if active_window is not None:
@@ -11,18 +12,13 @@ def new_window(root):
     active_window = Tk()
     return active_window
 
+# Function for home button
 def homebackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
 
     # Set the configuration of GUI window  
     root2.geometry("600x175") 
-
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
 
     frame1 = Frame(root2, borderwidth=2, relief='ridge')  
     frame2 = Frame(root2, borderwidth=2, relief='ridge')  
@@ -60,19 +56,13 @@ def homebackground():
      
     root2.mainloop() 
 
+# Function for about button
 def aboutbackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
 
     # Set the configuration of GUI window  
     root2.geometry("600x175") 
-
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
-    frame6 = Frame(root, borderwidth=0, relief='ridge')
 
     frame1 = Frame(root2, borderwidth=2, relief='ridge')  
     frame2 = Frame(root2, borderwidth=2, relief='ridge')  
@@ -101,19 +91,13 @@ def aboutbackground():
      
     root2.mainloop() 
 
+# Function for playlist button
 def playlistbackground():
     root2 = new_window(root)
     root2.title('spotify-downloader-music-player')
 
     # Set the configuration of GUI window  
     root2.geometry("600x175") 
-
-    frame1 = Frame(root, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root, borderwidth=2, relief='ridge')
-    frame4 = Frame(root, borderwidth=0, relief='ridge')
-    frame5 = Frame(root, borderwidth=0, relief='ridge')
-    frame6 = Frame(root, borderwidth=0, relief='ridge')
 
     frame1 = Frame(root2, borderwidth=2, relief='ridge')  
     frame2 = Frame(root2, borderwidth=2, relief='ridge')  
@@ -126,14 +110,14 @@ def playlistbackground():
     frame2.grid(column=0, row=1, sticky="nsew")  
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
-    frame5.grid(column=1, row=1, sticky="nsew")
+    frame5.grid(column=2, row=0, sticky="nsew")
     frame6.grid(column=2, row=1, sticky="nsew")
 
     folder_path = StringVar()
     home = Button(frame1, text="HOME",width=15, command=homebackground)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    Label(frame4, text=folder_path).pack()
+    Label(frame4, text=" select song         ").pack()
     choose = Button(frame5, text="choose", command=browse_button)
      
     home.pack(fill='x')  
@@ -143,6 +127,7 @@ def playlistbackground():
      
     root2.mainloop() 
 
+# function for song downloading
 def downloadsong(songName):
     musiclink="spotdl -s "+songName.get()
     os.system(musiclink)
