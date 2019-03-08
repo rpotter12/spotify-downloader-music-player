@@ -1,5 +1,6 @@
 from tkinter import *
 import os
+from tkinter import filedialog
 
 root = None
 active_window = None
@@ -166,7 +167,7 @@ def aboutbackground():
     frame5.grid(column=1, row=1, sticky="nsew")
     frame6.grid(column=1, row=2, sticky="nsew")
      
-    home = Button(frame1, text="HOME",width=15, command=homebackground)  
+    home = Button(frame1, text="HOME",width=15, command=youtubelink)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
     Label(frame4, text="A GUI version of spotify-downloder of Ritiek Malhotra.").pack()
@@ -202,7 +203,7 @@ def playlistbackground():
     frame6.grid(column=2, row=1, sticky="nsew")
 
     folder_path = StringVar()
-    home = Button(frame1, text="HOME",width=15, command=homebackground)  
+    home = Button(frame1, text="HOME",width=15, command=youtubelink)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
     Label(frame4, text=" select song         ").pack()
