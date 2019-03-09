@@ -47,7 +47,7 @@ def songnamee():
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
     songName = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadsong(songName))
+    download = Button(frame6, text="Download", command=lambda: downloadname(songName))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
@@ -90,8 +90,8 @@ def youtubelink():
     home = Button(frame1, text="HOME",width=15, command=youtubelink)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    songName = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadsong(songName))
+    songLink = Entry(frame5, width=40)
+    download = Button(frame6, text="Download", command=lambda: downloadlink(songLink))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
@@ -134,8 +134,8 @@ def file():
     home = Button(frame1, text="HOME",width=15, command=file)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    songName = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadsong(songName))
+    filetxt = Entry(frame5, width=40)
+    download = Button(frame6, text="Download", command=lambda: downloadfile(filetxt))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
@@ -216,10 +216,19 @@ def playlistbackground():
      
     root2.mainloop() 
 
+# function for song download by name
+def downloadname(songName):
+    musicname="spotdl --song \""+songName.get()+"\""
+
 # function for song downloading
-def downloadsong(songName):
-    musiclink="spotdl -s "+songName.get()
+def downloadlink(songLink):
+    musiclink="spotdl -s "+songLink.get()
     os.system(musiclink)
+
+# function for song downlaod by file
+def downloadfile(filetxt):
+    txtfile="spotdl --list "+filetxt.get()
+    os.system(txtfile)
 
 def browse_button():
     # Allow user to select a directory and store it in global var
