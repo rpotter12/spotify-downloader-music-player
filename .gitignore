@@ -1,0 +1,4 @@
+/build
+/dist
+/GitFeed.egg-info
+/gitfeed/__init__.pyc
