@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("README.md", "r", encoding="utf-8") as f:
+with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
@@ -38,4 +38,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={"console_scripts": ["spotpl = spotpl.spotpl:songnamee"]},
 	)
