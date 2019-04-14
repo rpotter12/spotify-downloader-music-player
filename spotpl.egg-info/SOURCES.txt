@@ -1,0 +1,10 @@
+README.md
+setup.py
+spotpl/__init__.py
+spotpl/spotpl.py
+spotpl.egg-info/PKG-INFO
+spotpl.egg-info/SOURCES.txt
+spotpl.egg-info/dependency_links.txt
+spotpl.egg-info/entry_points.txt
+spotpl.egg-info/requires.txt
+spotpl.egg-info/top_level.txt
