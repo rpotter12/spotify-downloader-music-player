@@ -32,8 +32,8 @@ def songnamee():
     frame2.grid(column=0, row=1, sticky="nsew")  
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
-    frame5.grid(column=1, row=1, sticky="nsew")
-    frame6.grid(column=2, row=1, sticky="nsew")
+    frame5.grid(column=2, row=0, sticky="nsew")
+    frame6.grid(column=3, row=1, sticky="nsew")
 
     menu = Menu(root2) 
     root2.config(menu=menu) 
@@ -46,8 +46,8 @@ def songnamee():
     home = Button(frame1, text="HOME",width=15, command=songnamee)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    songName = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadname(songName))
+    songName = Entry(frame4, width=40)
+    download = Button(frame5, text="Download", command=lambda: downloadname(songName))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
@@ -76,8 +76,8 @@ def youtubelink():
     frame2.grid(column=0, row=1, sticky="nsew")  
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
-    frame5.grid(column=1, row=1, sticky="nsew")
-    frame6.grid(column=2, row=1, sticky="nsew")
+    frame5.grid(column=2, row=0, sticky="nsew")
+    frame6.grid(column=3, row=1, sticky="nsew")
 
     menu = Menu(root2) 
     root2.config(menu=menu) 
@@ -90,13 +90,13 @@ def youtubelink():
     home = Button(frame1, text="HOME",width=15, command=youtubelink)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    songLink = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadlink(songLink))
+    songLink = Entry(frame4, width=40)
+    download = Button(frame5, text="Download", command=lambda: downloadlink(songLink))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
     about.pack(fill='x')
-    songName.pack()
+    songLink.pack()
     download.pack()
      
     root2.mainloop() 
@@ -120,8 +120,8 @@ def file():
     frame2.grid(column=0, row=1, sticky="nsew")  
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
-    frame5.grid(column=1, row=1, sticky="nsew")
-    frame6.grid(column=2, row=1, sticky="nsew")
+    frame5.grid(column=2, row=0, sticky="nsew")
+    frame6.grid(column=3, row=1, sticky="nsew")
 
     menu = Menu(root2) 
     root2.config(menu=menu) 
@@ -134,13 +134,13 @@ def file():
     home = Button(frame1, text="HOME",width=15, command=file)  
     playlist = Button(frame2, text="PLAYLIST",width=15, command=playlistbackground)  
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
-    filetxt = Entry(frame5, width=40)
-    download = Button(frame6, text="Download", command=lambda: downloadfile(filetxt))
+    filetxt = Entry(frame4, width=40)
+    download = Button(frame5, text="Download", command=lambda: downloadfile(filetxt))
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
     about.pack(fill='x')
-    songName.pack()
+    filetxt.pack()
     download.pack()
      
     root2.mainloop() 
@@ -219,6 +219,7 @@ def playlistbackground():
 # function for song download by name
 def downloadname(songName):
     musicname="spotdl --song \""+songName.get()+"\""
+    os.system(musicname)
 
 # function for song downloading
 def downloadlink(songLink):
