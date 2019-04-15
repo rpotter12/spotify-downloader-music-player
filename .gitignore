@@ -1,4 +1,4 @@
 /build
 /dist
-/GitFeed.egg-info
-/gitfeed/__init__.pyc
+/spotpl.egg-info
+/spotpl/__init__.py

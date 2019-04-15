@@ -13,12 +13,11 @@
 Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. Tkinter is included with standard Linux, Microsoft Windows and Mac OS X installs of Python. The name Tkinter comes from Tk interface.
 
 ## Requirements installation
-- `cd spotify-downloader-music-player`
-- `chmod +x ./requirements.sh`
-- `./requirements.sh`
+- `sudo apt install python3-tk`
 
-## How to run these codes
-- `python3 spotpl.py`
+## How to install the project into PC
+- `pip3 install spotpl`
+- `spotpl`
 
 ## Contributing
   Check out [CONTRIBUTING.md](https://github.com/rpotter12/spotify-downloader-music-player/blob/master/CONTRIBUTING.md) for more info.
