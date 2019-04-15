@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
 	name="spotpl",
-	version="1.0.0",
+	version="1.1.0",
 	install_requires=["spotdl >= 1.2.0"],
 	packages=find_packages(),
 	description="Download youtube songs in mp3 format and plays them",
