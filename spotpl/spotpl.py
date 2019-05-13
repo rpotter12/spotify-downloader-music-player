@@ -1,32 +1,25 @@
 from tkinter import *
 import os
 from tkinter import filedialog
+import tkinter
 
 root = None
 active_window = None
 
-# Function to close previous window
-def new_window(root):
-    global active_window
-    if active_window is not None:
-        active_window.destroy()
-    active_window = Tk()
-    return active_window
+root = tkinter.Tk()
+root.title('spotify-downloader-music-player')
+
+# Set the configuration of GUI window  
+root.geometry("600x175") 
 
 # Function for song name
 def songnamee():
-    root2 = new_window(root)
-    root2.title('spotify-downloader-music-player')
-
-    # Set the configuration of GUI window  
-    root2.geometry("600x175") 
-
-    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root2, borderwidth=2, relief='ridge')
-    frame4 = Frame(root2, borderwidth=0, relief='ridge')
-    frame5 = Frame(root2, borderwidth=0, relief='ridge')
-    frame6 = Frame(root2, borderwidth=0, relief='ridge')
+    frame1 = Frame(root, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root, borderwidth=2, relief='ridge')
+    frame4 = Frame(root, borderwidth=0, relief='ridge')
+    frame5 = Frame(root, borderwidth=0, relief='ridge')
+    frame6 = Frame(root, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -35,8 +28,8 @@ def songnamee():
     frame5.grid(column=2, row=0, sticky="nsew")
     frame6.grid(column=3, row=1, sticky="nsew")
 
-    menu = Menu(root2) 
-    root2.config(menu=menu) 
+    menu = Menu(root) 
+    root.config(menu=menu) 
     filemenu = Menu(menu) 
     menu.add_cascade(label='Download Type', menu=filemenu) 
     filemenu.add_command(label='Song Name', command=songnamee) 
@@ -55,22 +48,16 @@ def songnamee():
     songName.pack()
     download.pack()
      
-    root2.mainloop() 
+    root.mainloop() 
 
 # Function for youtube link button
 def youtubelink():
-    root2 = new_window(root)
-    root2.title('spotify-downloader-music-player')
-
-    # Set the configuration of GUI window  
-    root2.geometry("600x175") 
-
-    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root2, borderwidth=2, relief='ridge')
-    frame4 = Frame(root2, borderwidth=0, relief='ridge')
-    frame5 = Frame(root2, borderwidth=0, relief='ridge')
-    frame6 = Frame(root2, borderwidth=0, relief='ridge')
+    frame1 = Frame(root, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root, borderwidth=2, relief='ridge')
+    frame4 = Frame(root, borderwidth=0, relief='ridge')
+    frame5 = Frame(root, borderwidth=0, relief='ridge')
+    frame6 = Frame(root, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -79,8 +66,8 @@ def youtubelink():
     frame5.grid(column=2, row=0, sticky="nsew")
     frame6.grid(column=3, row=1, sticky="nsew")
 
-    menu = Menu(root2) 
-    root2.config(menu=menu) 
+    menu = Menu(root) 
+    root.config(menu=menu) 
     filemenu = Menu(menu) 
     menu.add_cascade(label='Download Type', menu=filemenu) 
     filemenu.add_command(label='Song Name', command=songnamee) 
@@ -98,23 +85,15 @@ def youtubelink():
     about.pack(fill='x')
     songLink.pack()
     download.pack()
-     
-    root2.mainloop() 
 
 # Function for file button
 def file():
-    root2 = new_window(root)
-    root2.title('spotify-downloader-music-player')
-
-    # Set the configuration of GUI window  
-    root2.geometry("600x175") 
-
-    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root2, borderwidth=2, relief='ridge')
-    frame4 = Frame(root2, borderwidth=0, relief='ridge')
-    frame5 = Frame(root2, borderwidth=0, relief='ridge')
-    frame6 = Frame(root2, borderwidth=0, relief='ridge')
+    frame1 = Frame(root, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root, borderwidth=2, relief='ridge')
+    frame4 = Frame(root, borderwidth=0, relief='ridge')
+    frame5 = Frame(root, borderwidth=0, relief='ridge')
+    frame6 = Frame(root, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -123,8 +102,8 @@ def file():
     frame5.grid(column=2, row=0, sticky="nsew")
     frame6.grid(column=3, row=1, sticky="nsew")
 
-    menu = Menu(root2) 
-    root2.config(menu=menu) 
+    menu = Menu(root) 
+    root.config(menu=menu) 
     filemenu = Menu(menu) 
     menu.add_cascade(label='Download Type', menu=filemenu) 
     filemenu.add_command(label='Song Name', command=songnamee) 
@@ -142,23 +121,15 @@ def file():
     about.pack(fill='x')
     filetxt.pack()
     download.pack()
-     
-    root2.mainloop() 
 
 # Function for about button
 def aboutbackground():
-    root2 = new_window(root)
-    root2.title('spotify-downloader-music-player')
-
-    # Set the configuration of GUI window  
-    root2.geometry("600x175") 
-
-    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root2, borderwidth=2, relief='ridge')
-    frame4 = Frame(root2, borderwidth=0, relief='ridge')
-    frame5 = Frame(root2, borderwidth=0, relief='ridge')
-    frame6 = Frame(root2, borderwidth=0, relief='ridge')
+    frame1 = Frame(root, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root, borderwidth=2, relief='ridge')
+    frame4 = Frame(root, borderwidth=0, relief='ridge')
+    frame5 = Frame(root, borderwidth=0, relief='ridge')
+    frame6 = Frame(root, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -177,23 +148,15 @@ def aboutbackground():
     home.pack(fill='x')  
     playlist.pack(fill='x')  
     about.pack(fill='x')
-     
-    root2.mainloop() 
 
 # Function for playlist button
 def playlistbackground():
-    root2 = new_window(root)
-    root2.title('spotify-downloader-music-player')
-
-    # Set the configuration of GUI window  
-    root2.geometry("600x175") 
-
-    frame1 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame2 = Frame(root2, borderwidth=2, relief='ridge')  
-    frame3 = Frame(root2, borderwidth=2, relief='ridge')
-    frame4 = Frame(root2, borderwidth=0, relief='ridge')
-    frame5 = Frame(root2, borderwidth=0, relief='ridge')
-    frame6 = Frame(root2, borderwidth=0, relief='ridge')
+    frame1 = Frame(root, borderwidth=2, relief='ridge')  
+    frame2 = Frame(root, borderwidth=2, relief='ridge')  
+    frame3 = Frame(root, borderwidth=2, relief='ridge')
+    frame4 = Frame(root, borderwidth=0, relief='ridge')
+    frame5 = Frame(root, borderwidth=0, relief='ridge')
+    frame6 = Frame(root, borderwidth=0, relief='ridge')
      
     frame1.grid(column=0, row=0, sticky="nsew")  
     frame2.grid(column=0, row=1, sticky="nsew")  
@@ -213,8 +176,6 @@ def playlistbackground():
     playlist.pack(fill='x')  
     about.pack(fill='x')
     choose.pack()
-     
-    root2.mainloop() 
 
 # function for song download by name
 def downloadname(songName):
