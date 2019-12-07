@@ -2,6 +2,7 @@ from tkinter import *
 import os
 from tkinter import filedialog
 import tkinter
+from tkinter import ttk
 
 root = None
 active_window = None
@@ -10,7 +11,7 @@ root = tkinter.Tk()
 root.title('spotify-downloader-music-player')
 
 # Set the configuration of GUI window  
-root.geometry("600x175") 
+root.geometry("700x175") 
 
 # Function for song name
 def songnamee():
@@ -26,7 +27,7 @@ def songnamee():
     frame3.grid(column=0, row=2, sticky="nsew")
     frame4.grid(column=1, row=0, sticky="nsew")
     frame5.grid(column=2, row=0, sticky="nsew")
-    frame6.grid(column=3, row=1, sticky="nsew")
+    frame6.grid(column=2, row=1, sticky="nsew")
 
     menu = Menu(root) 
     root.config(menu=menu) 
@@ -41,12 +42,14 @@ def songnamee():
     about = Button(frame3, text="ABOUT",width=15, command=aboutbackground)
     songName = Entry(frame4, width=40)
     download = Button(frame5, text="Download", command=lambda: downloadname(songName))
+    progress = ttk.Progressbar(frame6,orient ="horizontal",length = 200, mode ="determinate")
      
     home.pack(fill='x')  
     playlist.pack(fill='x')  
     about.pack(fill='x')
     songName.pack()
     download.pack()
+    progress.pack()
      
     root.mainloop() 
 
